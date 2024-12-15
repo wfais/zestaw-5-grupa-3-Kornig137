@@ -1,3 +1,4 @@
+#Marcin Słonka
 from itertools import product
 
 

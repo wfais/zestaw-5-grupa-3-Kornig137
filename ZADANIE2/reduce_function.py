@@ -1,3 +1,4 @@
+#Marcin słonka
 from fractions import Fraction
 from functools import reduce
 from math import gcd
