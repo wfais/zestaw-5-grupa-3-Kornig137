@@ -1,10 +1,9 @@
+#Marcin Słonka
 from itertools import product
 
 
-
 def maximize_expression(K, M, lists):
-    # twoj kod tutaj
-    pass 
+    return max(sum(x**2 for x in args)%M for args in product(*lists))
 
 
 

@@ -2,6 +2,7 @@ import time
 from ZADANIE1.histogram import plot_histogram
 from ZADANIE1.tablica import MonitorowanaTablica
 from ZADANIE1.algorytmy import algorytmy
+import ZADANIE1.algorytmy as algi
 
 
 
@@ -33,7 +34,7 @@ def wykonaj_pomiar():
                 }
             )
 
-            # plot_histogram(tablica, algo_pomiar["nazwa"], FPS)
+            plot_histogram(tablica, algo_pomiar["nazwa"], FPS)
 
         wszystkie_pomiary.append(algo_pomiar)
 
@@ -60,3 +61,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
